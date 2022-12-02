@@ -1,0 +1,14 @@
+<h1>Lista Alumnos</h1>
+
+<ul>
+    <li *ngFor="let nombreAlumno of Alumnos">
+        {{nombreAlumno}} </li>
+</ul>
+
+
+
+<div class="time">
+    Hoy es: {{hoy}} <br>
+    <br>
+    {{'' | pipe: 'Mayus'}}
+</div>
